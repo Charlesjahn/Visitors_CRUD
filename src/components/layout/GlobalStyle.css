@@ -1,0 +1,25 @@
+:root {
+
+    --color-primary: rgba(76, 162, 244, 1);
+    --color-primary-trans: rgb(76, 162, 244, 0.5);
+
+    --color-secondary: rgb(0, 13, 26);
+    --color-secondary-trans: rgb(2, 19, 35, 0.5);
+
+    --color-thirdy: rgba(248, 78, 146, 1);
+    --color-thirdy-trans: rgba(248, 78, 146, 0.5);
+
+
+    --color-white: rgb(243, 243, 243);
+    --color-white-trans: rgba(233, 233, 233, 0.5);
+
+    --color-black1: rgba(14, 14, 14, 1);
+    --color-black1-trans: rgba(14, 14, 14, 0.85);
+
+    --color-black2: rgba(41, 41, 41, 1);
+
+    --color-grey: rgb(190, 190, 190);
+    --color-grey-trans: rgba(175, 175, 175, 0.5);
+
+
+}

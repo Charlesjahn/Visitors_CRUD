@@ -1,0 +1,30 @@
+@import url('../layout/GlobalStyle.css');
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    height: 80%;
+    overflow: auto;
+    margin-bottom: 4.80em;
+}
+
+
+@media only screen and (max-width: 1069px) {
+    .container {
+        width: 750px;
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .container {
+        width: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 0;
+    }
+}

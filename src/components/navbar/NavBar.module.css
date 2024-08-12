@@ -1,0 +1,85 @@
+@import url('../layout/GlobalStyle.css');
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--color-secondary);
+    height: 5em;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.img_logo {
+    height: 60px;
+    border-radius: 50%;
+}
+
+header button {
+    color: var(--color-white);
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+    transition: 0.5s;
+}
+
+header button:hover {
+    color: var(--color-primary);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--color-white);
+    margin: 0 2em;
+    transition: 0.5s;
+    font-size: large;
+}
+
+header svg {
+    font-size: 2em;
+}
+
+header a:hover {
+    color: var(--color-primary);
+}
+
+@media only screen and (max-width: 750px) {
+    header button {
+        display: block;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--color-secondary);
+        transition: left 0.5s;
+    }
+
+    nav a,
+    .closeBtn {
+        margin: 25px 10px;
+    }
+
+    header .responsive_nav {
+        left: 0;
+    }
+
+    header a {
+        font-size: normal;
+    }
+}

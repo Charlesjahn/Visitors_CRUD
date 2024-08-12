@@ -1,0 +1,51 @@
+@import url('../layout/GlobalStyle.css');
+
+.footer {
+    background-color: var(--color-secondary);
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;    
+    color: var(--color-white);
+    cursor: default;
+    z-index: 1;
+}
+
+footer .copy_right_span {
+    color: var(--color-primary);
+}
+
+footer svg{
+    font-size: 1.5em;
+    color: var(--color-white);
+    border-radius: 20%;
+    transition: 1s;
+}
+
+footer a{
+    margin: 0.2em 0.8em;
+}
+
+.insta:hover {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888, #9012fe, #6b13d4, #3814a2, #051b80, #051b80);
+}
+
+.whats:hover {
+    background-color: #25D366;    
+    color: var(--color-secondary-trans);
+}
+
+.gmail:hover {
+    background: linear-gradient(45deg, rgb(221, 44, 0), rgb(255, 65, 54), rgb(255, 220, 0), rgb(0, 200, 83), rgb(0, 157, 224), rgb(63, 81, 181));
+    color: var(--color-secondary-trans);
+}
+
+.github:hover {
+    background-color: rgb(111, 66, 193);
+}
+
+.link:hover {
+    background-color: rgb(0, 119, 181);
+}
